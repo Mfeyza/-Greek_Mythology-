@@ -7,7 +7,7 @@ const Header = () => {
        <Navbar/>
 
         
-<h1 >Who Are You?</h1>
+<h1 >GOD OF WARS</h1>
 
     </header>
        
