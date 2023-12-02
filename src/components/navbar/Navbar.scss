@@ -1,0 +1,52 @@
+.containerN{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #CD890C;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 1;
+padding:1rem ;
+
+
+.buttons{
+    display: flex;
+    
+button{
+
+   cursor: pointer;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    font-size: 1.7rem;
+    padding: .5rem;
+    border-radius: 5px;
+    &:hover{
+        background-color: rgb(30, 28, 28);
+        color: #CD890C;
+
+    }
+    
+}
+    
+    
+}
+
+}
+@media screen and (max-width: 1024px) {
+    .buttons {
+        flex-direction: column;
+        button {
+            width: 200px;
+            text-align: left;
+        }
+    }
+
+}
+@media screen and (max-width: 1024px){
+    h1{
+       padding-top: 6rem;
+    }
+}
+
