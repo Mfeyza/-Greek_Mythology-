@@ -1,3 +1,52 @@
+##God of Wars - Greek Mythology Web Application
+visit my page : https://ass2horoscope.vercel.app/
+
+God of Wars is a web application that provides detailed information about various deities and figures from Greek mythology. The application is designed with a modern and interactive user interface, showcasing the mythological characters in an engaging way.
+
+
+##Features
+Displays information about Greek mythological figures like Zeus, Hera, Apollo, and others.
+Each figure is presented with an image, title, date, and a descriptive text.
+A navigational bar for easy access to different sections of the application.
+Responsive design for optimal viewing on different devices and screen sizes.
+
+
+
+##Installation
+To run this project on your local machine:
+
+
+##
+Clone or download the repository to your computer.
+Navigate to the project directory.
+If you're using Node.js, you can use a server like serve to serve the application or simply open the index.html in your browser if it's a static site.
+Usage
+Open the application in your web browser.
+Explore the list of Greek mythological figures presented on the main page.
+Use the navigation bar to access different sections of the application.
+Click on individual cards to learn more about each mythological figure.
+
+##Technical Details
+The application is built using React.js.
+SCSS is used for styling the components.
+The information about the mythological figures is stored in a local data file (JavaScript object format).
+Responsive design is implemented using CSS media queries and Flexbox.
+
+##Dependencies
+React.js
+Node.js (for development environment setup)
+File Structure
+/components: Contains React components like Header, Main, Navbar, and Card.
+/helper: Stores data files used in the application.
+App.scss: Main stylesheet for the application.
+
+Contributing
+Contributions to this project are welcome. You can contribute by improving the codebase, adding new features, or fixing bugs. Please ensure to follow the existing code structure and style guides.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
